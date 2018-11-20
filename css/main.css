@@ -223,11 +223,6 @@ p {
     cursor: pointer;
 }
 
-#download a {
-    color: white;
-    margin: 1em;
-}
-
 #controls {
     position: relative;
     background-color: var(--richtiges-grau);
@@ -367,4 +362,26 @@ p {
     color: var(--banned);
     width:15px;
     height:15px;
+}
+
+.btn-confirm {
+    text-decoration: none;
+    font-weight: normal;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 8px 6px 8px;
+    margin: 0;
+    color: #F5F7F6;
+    cursor: pointer;
+    background-color: #ee4d2e;
+    font-size: 12px;
+}
+
+.btn-confirm:hover,
+.btn-confirm:focus {
+    text-decoration: none;
+    outline: none;
+    text-shadow: none;
+    color: #555;
+    background-color: #F5F7F6;
 }
