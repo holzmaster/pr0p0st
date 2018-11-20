@@ -377,7 +377,8 @@ p {
     font-size: 12px;
 }
 
-.btn-confirm:hover:focus {
+.btn-confirm:hover,
+.btn-confirm:focus {
     text-decoration: none;
     outline: none;
     text-shadow: none;
