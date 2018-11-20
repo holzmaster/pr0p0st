@@ -368,3 +368,15 @@ p {
     width:15px;
     height:15px;
 }
+
+.btn-confirm {
+    font-weight: normal;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 8px 6px 8px;
+    margin: 0;
+    color: #F5F7F6;
+    cursor: pointer;
+    background-color: #ee4d2e;
+    font-size: 12px;
+}
